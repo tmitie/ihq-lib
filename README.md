@@ -76,6 +76,22 @@ python -m venv venv
 pip install path/to/process_img-1.0.0-py3-none-any.whl
 pip install opencv-python numpy scikit-learn Pillow
 ```
+---
+
+## 📋 Valores Retornados pelo Método `process_image_with_boundaries`
+O método retorna um dicionário com os seguintes parâmetros:
+
+- `positive_contours_counting`: Número de contornos positivos identificados na imagem.
+- `negative_contours_counting`: Número de contornos negativos identificados na imagem.
+- `total_cells`: Total de células identificadas (positivas + negativas).
+- `positive_percentage`: Porcentagem de células positivas em relação ao total.
+- `negative_percentage`: Porcentagem de células negativas em relação ao total.
+- `merged_image_base64`: Imagem mesclada (positiva e negativa) codificada em Base64.
+- `merged_image`: Imagem mesclada (positiva e negativa) como objeto OpenCV.
+- `processed_image_positive_base64`: Imagem processada com contornos positivos codificada em Base64.
+- `processed_image_positive`: Imagem processada com contornos positivos como objeto OpenCV.
+- `processed_image_negative_base64`: Imagem processada com contornos negativos codificada em Base64.
+- `processed_image_negative`: Imagem processada com contornos negativos como objeto OpenCV.
 
 ---
 
