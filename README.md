@@ -4,11 +4,22 @@ A `process_img` é uma biblioteca Python para processamento de imagens, permitin
 
 ## Instalação
 
-### 1. Baixe o arquivo `.whl`
+### 1. Instale o Python
+Certifique-se de que você tem o Python 3.6 ou superior instalado. Caso não tenha, siga os passos abaixo:
+
+1️⃣ Baixe o instalador do Python no site oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/).  
+2️⃣ Siga as instruções de instalação para o seu sistema operacional.  
+3️⃣ Após instalar, verifique se o Python está funcionando corretamente executando o comando no terminal:
+
+```bash
+python --version
+```
+
+### 2. Baixe o arquivo `.whl`
 Obtenha o arquivo `.whl` da biblioteca fornecido pelo desenvolvedor.
 
-### 2. Instale a biblioteca
-Certifique-se de que você tem o Python 3.6 ou superior instalado. Em seguida, instale a biblioteca usando o comando:
+### 3. Instale a biblioteca
+Instale a biblioteca usando o comando:
 
 ```bash
 pip install process_img-1.0.1-py3-none-any.whl
@@ -79,3 +90,10 @@ A função `process_image_with_boundaries` retorna um dicionário com os seguint
 - **processed_image_negative**: Imagem processada com contornos negativos.
 - **merged_image**: Imagem combinada com todos os contornos.
 
+### 4. Executar o Script
+1️⃣ Abra o terminal no diretório do script `main_from_lib.py`.  
+
+2️⃣ Execute:
+```
+python main_from_lib.py
+```
