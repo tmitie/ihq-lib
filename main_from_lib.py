@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from process_img.process_img_interface import process_image_with_boundaries
 
 if __name__ == "__main__":
-    image_path = "/Users/thaynaramitie/Documents/Images/Amostras/Amostras/IMG_5431 2.jpeg"
+    image_path = "amostra_exemplo.JPG"
 
     limiteInferiorPositivo = (34, 20, 34)
     limiteSuperiorPositivo = None
